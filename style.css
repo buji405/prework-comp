@@ -1,0 +1,430 @@
+body {
+ color: #444444;
+ height: 100vh;
+ font-family: 'Open Sans', sans-serif;
+ width: 100%;
+}
+
+nav {
+  background: black;
+  height: 70px;
+  width: 100%;
+}
+
+.main-nav {
+  text-align: center;
+}
+
+.menu-bar {
+  display: none;
+  float: left;
+  padding: 15px 0 0 20px;
+  width: 40px;
+}
+
+.top-nav {
+  color: white;
+  display: inline-block;
+  font-family: 'Hind Siliguri', sans-serif;
+  font-size: 20px;
+  width: 13.5%;
+}
+
+.top-nav:hover {
+  color: #4192ad;
+  cursor: pointer;
+}
+
+.hiker {
+  padding-top: 5px;
+  width: 40px;
+}
+
+.search-icon {
+  height: 30px;
+  padding-top: 20px;
+  width: 35px;
+}
+
+.hero-img {
+    background: url(Assets/hero.jpg) no-repeat;
+    background-size: cover;
+    height: 500px;
+  }
+
+h1 {
+  color: #000;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.inner-nav {
+  margin: auto;
+  text-align: center;
+}
+
+.icon {
+  padding-right: 7px;
+  width: 25px;
+}
+
+.tips-nav {
+  display: inline-block;
+  font-family: 'Pragati Narrow', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 30px 30px 20px 10px;
+}
+
+a {
+  color: #444444;
+}
+
+.bangkok {
+  display: block;
+  height: 400px;
+  margin: 20px auto 0 auto;
+  padding-bottom: 40px;
+  width: 80%;
+}
+
+p,
+.intro {
+  font-size: 20px;
+  line-height: 30px;
+  margin: auto;
+  padding-bottom: 25px;
+  width:80%;
+}
+
+em {
+  font-style: italic;
+}
+
+h3 {
+  border-bottom: 2px solid #000;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0 10%;
+  padding-bottom: 5px;
+  width: 80%;
+}
+
+.expenses,
+.savings {
+  padding-top: 20px;
+}
+
+b {
+  font-weight: bold;
+}
+
+section {
+  height: 255px;
+  margin: auto;
+  width: 80%;
+}
+
+
+#destination {
+  margin-left: 0;
+}
+
+.right-aside {
+  float: right;
+  width: 50%;
+}
+
+.locations {
+  line-height: 30px;
+}
+
+#activities {
+  margin-left: 0;
+}
+
+.left-aside {
+  vertical-align: top;
+  width: 49%;
+}
+
+.spacing {
+  padding-top: 15px;
+}
+
+.todo {
+  line-height: 30px;
+}
+
+.locations,
+.todo {
+  font-size: 20px;
+}
+
+.travel-pics {
+  background: lightgray;
+  margin: 20px auto 0;
+  padding: 50px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.circles {
+  border: 4px solid #4192ad;
+  border-radius: 80%;
+  display: inline-block;
+  height: 220px;
+  margin: 0 30px 0 30px;
+  width: 220px;
+}
+
+.riding-elephant {
+    background: url(Assets/elephant.jpg) no-repeat;
+    background-size: cover;
+  }
+
+.monkey {
+  background: url(Assets/monkey.jpg) no-repeat;
+  background-size: cover;
+}
+
+.jump {
+  background: url(Assets/jumping.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+form {
+  background: #4192ad;
+  color: white;
+  padding: 50px 0;
+  text-align: center;
+  width: 100%;
+}
+
+label {
+  font-size: 18px;
+}
+
+input {
+  border: none;
+  font-size: 15px;
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 173px;
+}
+
+.email-fill {
+  margin-left: 40px;
+}
+
+#submit {
+  background: white;
+  border-radius: 3%;
+  color: #4192ad;
+  height: 30px;
+  margin-left: 100px;
+  width: 100px;
+}
+
+#submit:hover {
+  background: lightgray;
+}
+
+/*media queries*/
+
+@media (max-width: 966px) {
+
+  .circles {
+    height: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 200px;
+  }
+}
+
+@media (max-width: 844px) {
+
+  .circles {
+    height: 145px;
+    margin: 0 20px;
+    width: 145px;
+  }
+}
+
+@media (max-width: 720px) {
+
+  .about,
+  .travel,
+  .dest-top,
+  .community,
+  .resources {
+    display: none;
+  }
+
+  .menu-bar {
+    display: inline-block;
+  }
+
+  .search-style {
+    float: right;
+  }
+
+  .search-icon {
+    padding-right: 15px;
+  }
+
+  .hiker {
+    margin-left: 50%;
+    margin-top: 10px;
+  }
+
+  .right-aside {
+    float: none;
+    padding-bottom: 20px;
+    width: 100%;
+  }
+
+  .left-aside {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .bangkok {
+    height: 350px;
+  }
+
+  section {
+    height: 490px;
+  }
+
+  .todo,
+  .locations {
+    padding-left: 30px;
+  }
+
+  #activities,
+  #destination {
+    width: 100%;
+  }
+
+  .circles {
+    margin: 0 15px 0 15px;
+  }
+}
+
+@media (max-width: 665px) {
+
+  .circles {
+    display: block;
+    height: 300px;
+    margin: 20px auto;
+    width: 300px;
+  }
+
+  .bangkok {
+    height: 300px;
+  }
+
+  .inner-nav {
+    display: block;
+    width: 80%;
+  }
+
+  .tips-nav {
+    display: block;
+    padding-right: 10px;
+    width: 50%;
+  }
+
+  .tips-nav {
+    padding-left: 40px;
+    text-align: start;
+  }
+
+  .cost,
+  .active {
+    float: right;
+    margin-top: -80px;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  .hero-img {
+    height: 400px;
+  }
+}
+
+@media (max-width: 465px) {
+
+  .tips-nav {
+    font-size: 20px;
+    text-align: start;
+    padding-left: 0;
+  }
+
+  .cost,
+  .active {
+    text-align: right;
+  }
+}
+
+@media (max-width: 415px) {
+
+  .tips-nav {
+    width: 50%;
+  }
+
+  h1 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
+
+@media (max-width: 390px) {
+
+  section {
+    height: 530px;
+    margin-bottom: 60px;
+    margin-left: 35;
+    width: 80%;
+  }
+
+  .hiker-style {
+    margin-right: 40px;
+  }
+
+  #activities,
+  #destination {
+      border-bottom: 2px solid #000;
+      font-size: 24px;
+      font-weight: 700;
+      margin: 0 10%;
+      padding-bottom: 5px;
+      width: 80%;
+  }
+
+  .todo,
+  .locations {
+    margin-left: 0;
+  }
+
+  .circles {
+    height: 200px;
+    width: 200px;
+  }
+
+  h1 {
+    padding: 5px 10px 0 10px;
+  }
+
+  .bangkok {
+    height: 250px;
+  }
+}
